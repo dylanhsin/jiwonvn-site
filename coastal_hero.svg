@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 760" role="img" aria-label="Original watercolor illustration of an Asian coastal town">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#87b9d6"/><stop offset=".7" stop-color="#c4d9dc"/><stop offset="1" stop-color="#e8d9bd"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#4c8eaa"/><stop offset="1" stop-color="#28586f"/></linearGradient>
+ <linearGradient id="cliff" x2="0" y2="1"><stop stop-color="#d8ba8c"/><stop offset="1" stop-color="#a87654"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+ <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="8"/><feColorMatrix values=".5 0 0 0 .5 .5 0 0 0 .45 .5 0 0 0 .35 0 0 0 .08 0"/></filter>
+ <pattern id="waves" width="90" height="25" patternUnits="userSpaceOnUse"><path d="M0 15q18-8 36 0t36 0t36 0" fill="none" stroke="#c8dfd5" stroke-opacity=".35" stroke-width="2"/></pattern>
+</defs>
+<rect width="1800" height="760" fill="url(#sky)"/>
+<g fill="#fff9e9" opacity=".58" filter="url(#soft)"><ellipse cx="360" cy="138" rx="230" ry="46"/><ellipse cx="1130" cy="112" rx="280" ry="52"/><ellipse cx="1580" cy="205" rx="205" ry="40"/></g>
+<g fill="#fffdf6" opacity=".8"><path d="M180 171q23-38 68-13 29-30 61 4 42-4 45 26H173q-10-5 7-17z"/><path d="M1000 183q22-31 58-9 31-36 69 1 36-8 48 24H991q-8-6 9-16z"/><path d="M1430 105q23-29 53-9 29-34 65 0 33-9 47 22h-172q-10-5 7-13z"/></g>
+<path d="M0 346q200-108 398-12 177-96 366 9 180-72 352 1 178-91 345-21 179-66 339 16v100H0z" fill="#9db3a3" opacity=".72"/>
+<path d="M0 380q188-67 373 21 181-95 351-14 211-87 405-6 166-83 337-13 179-63 334 30v105H0z" fill="#6e8b80" opacity=".6"/>
+<path d="M0 420q240-22 420 28t370-14q214-58 408 11t350-7q154-39 252 18v304H0z" fill="url(#sea)"/>
+<path d="M0 431q240-22 420 28t370-14q214-58 408 11t350-7q154-39 252 18v304H0z" fill="url(#waves)" opacity=".55"/>
+<g opacity=".78"><path d="M1050 410l20-100 20 100z" fill="#fff8e6"/><path d="M1070 310v113" stroke="#57483a" stroke-width="3"/><path d="M1430 446l15-73 16 73z" fill="#f4e9d5"/><path d="M1445 373v86" stroke="#57483a" stroke-width="3"/><path d="M1007 420h87l-15 11h-57zM1401 451h82l-13 10h-55z" fill="#c96d54"/></g>
+<!-- layered coastal town -->
+<g stroke="#fff3df" stroke-width="5" stroke-linejoin="round">
+ <path d="M1240 367v-126l54-51 56 51v127z" fill="#f5e7cb"/><path d="M1229 244l65-67 67 67z" fill="#b76650"/><path d="M1278 236v-56h34v55z" fill="#d29d68"/><path d="M1290 369v-62q16-29 32 0v62z" fill="#628391"/>
+ <path d="M1350 384V267l43-41 51 41v117z" fill="#f5dfbb"/><path d="M1342 269l52-58 59 58z" fill="#bd7757"/><path d="M1371 299h18v26h-18zM1411 299h18v26h-18z" fill="#79a0a0"/>
+ <path d="M1450 406V292l42-43 51 43v114z" fill="#e6c995"/><path d="M1443 294l50-59 57 59z" fill="#a85549"/><path d="M1470 323h18v25h-18zM1512 323h18v25h-18z" fill="#6c9296"/>
+ <path d="M1545 420V318l45-39 47 39v102z" fill="#f4e8d1"/><path d="M1538 321l52-54 54 54z" fill="#c76c51"/><path d="M1565 348h18v22h-18zM1602 348h18v22h-18z" fill="#83a6a5"/>
+ <path d="M1665 434V334l36-30 42 30v100z" fill="#dfc18e"/><path d="M1658 337l43-44 50 44z" fill="#a45142"/><path d="M1684 360h16v20h-16zM1715 360h16v20h-16z" fill="#799ba0"/>
+</g>
+<g fill="#e8d7bb" opacity=".8"><path d="M1210 376h554v14h-554z"/><path d="M1250 399h512v8h-512z"/></g>
+<path d="M0 532q140-77 292-16l146 244H0z" fill="url(#cliff)"/>
+<path d="M0 600q108-51 202-15l96 175H0z" fill="#bb8b62" opacity=".55"/>
+<!-- foreground branches and leaves -->
+<g fill="none" stroke="#4a5d45" stroke-width="16" stroke-linecap="round"><path d="M45 0q155 74 211 181t138 124"/><path d="M178 85q-56 1-119 60M219 127q85-44 166-43M280 202q-24 55-16 121"/><path d="M1690 760q28-110 75-175t37-181M1740 613q-66-19-109-61M1770 516q24-62 26-102"/></g>
+<g fill="#75866a"><ellipse cx="105" cy="83" rx="62" ry="22" transform="rotate(25 105 83)"/><ellipse cx="217" cy="95" rx="72" ry="25" transform="rotate(-25 217 95)"/><ellipse cx="311" cy="163" rx="65" ry="21" transform="rotate(26 311 163)"/><ellipse cx="68" cy="187" rx="71" ry="24" transform="rotate(-30 68 187)"/><ellipse cx="1682" cy="570" rx="60" ry="21" transform="rotate(20 1682 570)"/><ellipse cx="1740" cy="488" rx="66" ry="22" transform="rotate(-20 1740 488)"/></g>
+<g fill="#d8b65f"><circle cx="145" cy="166" r="17"/><circle cx="276" cy="59" r="14"/><circle cx="339" cy="115" r="12"/><circle cx="1698" cy="464" r="14"/></g>
+<rect width="1800" height="760" filter="url(#grain)" opacity=".38"/>
+</svg>
